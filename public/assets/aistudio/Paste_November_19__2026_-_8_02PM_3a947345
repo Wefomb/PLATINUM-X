@@ -1,0 +1,1149 @@
+# PLATINUM X — COMPLETE WEBSITE DEVELOPMENT MASTER PROMPT
+
+## PROJECT OVERVIEW
+
+Build a fully functional, production-ready, luxury streetwear e-commerce website for **PLATINUM X**, based on the attached Figma designs, brand identity references, product images, logos, and interaction specifications.
+
+**Brand name:** PLATINUM X
+
+**Brand tagline:** LESS NOISE. MORE PRESENCE.
+
+**Brand philosophy:** Quiet power. Subtle signature. Strong identity. Lasting impact.
+
+PLATINUM X is a minimalist premium streetwear brand combining understated elegance, confident silhouettes, artistic expression, and high-quality design.
+
+The website should feel like a premium fashion editorial experience combined with a seamless modern e-commerce platform.
+
+The finished project must:
+
+1. Accurately recreate my supplied Figma website designs.
+2. Integrate advanced cinematic interactions adapted from the supplied Kolibrie Studio reference.
+3. Preserve PLATINUM X's black-and-white luxury identity.
+4. Provide complete, working e-commerce functionality.
+5. Be responsive on desktop, tablet, and mobile.
+6. Run as a production Node.js application on Pterodactyl Panel.
+7. Include complete source code, dependencies, configuration, and deployment instructions.
+
+**Do not redesign the website from scratch. My Figma designs are the primary visual specification.**
+
+---
+
+# 1. DESIGN SOURCE PRIORITY
+
+Use the following hierarchy whenever references conflict.
+
+**Priority 1 — Figma designs**
+
+My attached desktop and mobile Figma screenshots determine:
+
+- Page layouts and section order.
+- Typography and spacing.
+- Image placement and aspect ratios.
+- Product card layouts.
+- Navigation structure.
+- Footer composition.
+- Background colors.
+- Responsive presentation.
+
+**Priority 2 — PLATINUM X brand identity**
+
+Use my supplied fox emblem, wordmark, product imagery, and brand guidelines.
+
+**Priority 3 — Interactive reference**
+
+Use the supplied Kolibrie Studio interaction prompt as a technical motion reference only.
+
+Borrow interaction techniques, not its brand identity.
+
+Do not reproduce Kolibrie's colorful appearance, studio content, team imagery, fonts, or page composition.
+
+**Priority 4 — Functional requirements**
+
+Implement the actual behavior necessary to make the designed website usable.
+
+If a requested animation conflicts with the Figma layout, preserve the Figma design and adapt the animation.
+
+If screenshots do not reveal enough detail, inspect available Figma layers, assets, and frames where accessible. Ask for missing information instead of inventing brand assets.
+
+---
+
+# 2. PLATINUM X VISUAL IDENTITY
+
+## Colors
+
+Primary black: `#000000`
+
+Primary white: `#FFFFFF`
+
+Editorial off-white: `#F5F4F0`
+
+Secondary dark: `#111111`
+
+Muted gray: `#777777`
+
+Subtle border: `#DCDAD5`
+
+Use these as initial implementation tokens. Where the Figma design provides exact colors, use the Figma values instead.
+
+Do not introduce bright accent colors.
+
+Avoid colorful gradients, neon effects, or playful UI treatments.
+
+## Typography
+
+Use a sophisticated editorial typography system.
+
+- Elegant, high-contrast serif typography for major headings.
+- Clean modern sans-serif typography for navigation, descriptions, buttons, product details, and functional interfaces.
+- Use the exact Figma fonts when available.
+- Preserve the supplied PLATINUM X wordmark rather than recreating it with a substitute font.
+- Use carefully controlled letter spacing and line height.
+- Large headlines should feel architectural and premium.
+
+Suggested fallback fonts are a refined serif such as Cormorant Garamond and a modern sans-serif such as Inter, only if the original fonts cannot be identified.
+
+## Brand assets
+
+Use the supplied PLATINUM X fox emblem consistently.
+
+There are two distinct visual expressions:
+
+**Minimal fox emblem:** For navigation, labels, small signature elements, loading animation, and understated branding.
+
+**Artistic fox illustration:** For statement products, editorial campaign imagery, and expressive brand sections.
+
+Do not confuse these assets or replace them with generic fox illustrations.
+
+Never generate replacement product images when the actual supplied assets are available.
+
+## Visual principles
+
+The website must communicate:
+
+- Quiet luxury.
+- Premium streetwear.
+- Confidence without excess.
+- Editorial sophistication.
+- Strong monochrome contrast.
+- Purposeful animation.
+- Exceptional attention to detail.
+
+Use generous negative space, carefully framed photography, and subtle visual transitions.
+
+---
+
+# 3. REQUIRED WEBSITE PAGES
+
+Recreate every page and state represented in the attached Figma designs.
+
+The supplied references include the following primary experiences.
+
+## A. Homepage
+
+Create the homepage based on the Figma design.
+
+### Hero section
+
+Use the supplied PLATINUM X fashion imagery.
+
+Preserve the editorial composition featuring the model, premium streetwear styling, and minimal typography.
+
+Main messaging:
+
+**Presence. Without noise.**
+
+Include the primary call to action shown in the design.
+
+### Featured collection
+
+Display the black and white signature T-shirts.
+
+Use the original product photographs.
+
+Maintain the intended product card proportions and spacing.
+
+### Statement section
+
+Feature the bold artistic fox design and the associated statement product.
+
+Use a dark background where shown in Figma.
+
+### Brand detail section
+
+Show premium close-up product photography emphasizing garment quality, labels, print details, and construction.
+
+### Editorial campaign section
+
+Feature the supplied campaign photographs and brand storytelling.
+
+### Brand philosophy section
+
+Preserve the message of quiet confidence, luxury, and individuality.
+
+### Footer
+
+Recreate the original Figma footer, including navigation and newsletter subscription.
+
+## B. Collection / Shop page
+
+Preserve the heading:
+
+**A wardrobe. A point of view.**
+
+Display the designed product collection.
+
+Support:
+
+- Product browsing.
+- Functional product links.
+- Product filtering where appropriate.
+- Product sorting.
+- Responsive product cards.
+- Product availability.
+- Cart access.
+
+Use the Figma layout and do not invent additional products.
+
+## C. Product detail page
+
+Recreate the supplied Brand Bible Tee product page.
+
+Include:
+
+- Main product image.
+- Additional gallery images.
+- Product name.
+- Description.
+- Price.
+- Available colors.
+- Size selection.
+- Quantity controls where appropriate.
+- Add-to-cart button.
+- Product information.
+- Shipping information.
+- Care instructions.
+- Related products.
+
+Product variants must correspond to actual available inventory.
+
+Do not invent prices, stock counts, shipping policies, or product specifications.
+
+## D. Brand / About page
+
+Preserve the editorial themes:
+
+**Less noise. More presence.**
+
+**Instinct. With intention.**
+
+**More intention. Less excess.**
+
+Use the supplied fox branding, campaign photography, and minimalist editorial sections.
+
+The page should tell the story of PLATINUM X through typography, imagery, and subtle motion.
+
+## E. Journal / Editorial page
+
+Preserve the heading:
+
+**Notes on presence.**
+
+Include the editorial content and visual storytelling represented in the Figma design.
+
+Support individual article pages if article cards require them.
+
+## F. Supporting commerce pages
+
+Create the pages required for functional e-commerce:
+
+- Shopping cart.
+- Checkout.
+- Order confirmation.
+- Contact.
+- Required policy pages.
+- Account and order history only if authentication is part of the approved scope.
+
+Style these pages consistently with the supplied design.
+
+Where a page has no Figma reference, use the existing design system and ask for approval before finalizing its layout.
+
+---
+
+# 4. CINEMATIC INTERACTION SYSTEM
+
+This section is extremely important.
+
+Use the attached Kolibrie Studio interaction specification as a technical reference for GSAP, ScrollTrigger, cursor effects, scroll-linked animation, and responsive motion.
+
+However, the final experience must be adapted to PLATINUM X.
+
+**Motion direction: Balanced cinematic luxury.**
+
+Animations should be memorable, precise, smooth, and restrained.
+
+Avoid excessive movement that distracts from shopping.
+
+## 4.1 Initial page loading animation
+
+Create a premium monochrome introduction.
+
+Sequence:
+
+1. Display a black full-screen loading layer.
+2. Reveal the supplied PLATINUM X fox emblem in white.
+3. Animate the emblem using a refined line-drawing or mask reveal.
+4. Display the PLATINUM X wordmark.
+5. Transition smoothly into the homepage.
+6. Reveal the hero content with subtle staggered motion.
+
+Use GSAP for sequencing.
+
+The introduction should be brief and must never block access to the website if animation assets fail.
+
+Provide a timeout fallback and skip or simplify the sequence for reduced-motion users.
+
+Do not replay a lengthy loading animation on every internal navigation.
+
+## 4.2 Hero interaction
+
+Adapt the Kolibrie cursor-following image concept.
+
+On desktop devices with a fine pointer:
+
+- A premium PLATINUM X product or editorial image card can subtly follow the cursor within the designated hero interaction area.
+- The image should have gentle rotational movement.
+- Movement should use smooth inertia.
+- The floating image should remain behind important text.
+- The image may change between supplied campaign photographs after sufficient pointer movement.
+- The effect should fade away over buttons and links.
+- Avoid obstructing the main model photograph or important hero composition.
+
+Use GSAP quickTo or equivalent optimized animation methods.
+
+On mobile, replace the cursor interaction with a static or gently animated editorial image where appropriate.
+
+If the floating image would compromise the supplied Figma hero layout, make the effect more subtle rather than changing the layout.
+
+## 4.3 Cinematic typography reveals
+
+Apply carefully controlled text animations to major editorial headings.
+
+Examples:
+
+**Presence. Without noise.**
+
+**A wardrobe. A point of view.**
+
+**Less noise. More presence.**
+
+**Instinct. With intention.**
+
+**Notes on presence.**
+
+Use masked line reveals, staggered character entrances, and subtle vertical movement.
+
+Suggested animation:
+
+- Initial vertical offset: approximately 100–135%.
+- Duration: approximately 0.8–1.1 seconds.
+- Easing: expo.out or power3.out.
+- Small character or line stagger.
+- Trigger once when entering the viewport.
+
+Do not animate every paragraph individually.
+
+Ensure text remains accessible and visible if JavaScript or animation libraries fail.
+
+## 4.4 Interactive typography
+
+Adapt the Kolibrie font-weight-following-cursor concept.
+
+Apply it selectively to one or two major headings.
+
+When the pointer approaches the text, subtly vary supported font-weight axes.
+
+Do not distort the premium serif typography.
+
+Only use this effect when the selected font supports the required variable axes.
+
+Disable it on touch devices and for reduced-motion preferences.
+
+## 4.5 Scroll-controlled product stack
+
+Create a cinematic product showcase inspired by the Kolibrie 3D card-stack interaction.
+
+Use PLATINUM X products rather than colorful project cards.
+
+Possible featured products:
+
+- Brand Bible Tee.
+- Black Signature Tee.
+- White Signature Tee.
+
+Use only products actually present in the supplied assets or catalog.
+
+On desktop:
+
+1. Display the products as layered editorial cards.
+2. Apply subtle depth using CSS 3D transforms.
+3. Pin the showcase section while scrolling.
+4. As the user scrolls, the front product moves away.
+5. The next product advances smoothly.
+6. Each card reveals the product name and a shop link.
+7. Product links must navigate to real product pages.
+
+Use GSAP ScrollTrigger.
+
+Suggested parameters adapted from the reference:
+
+- Perspective: approximately 1400px.
+- Depth spacing: approximately 80–120px.
+- Vertical spacing: approximately 30–40px.
+- Gentle mouse tilt: no more than approximately 6° vertically and 10° horizontally.
+- Scroll-driven progress.
+- Smooth scrub behavior.
+
+Do not use colorful card backgrounds.
+
+Use black, ivory, white, and muted neutral tones.
+
+On mobile, replace the pinned 3D stack with a clean vertical or swipeable product presentation.
+
+Do not make users scroll through several unnecessary screen heights before they can shop.
+
+## 4.6 Editorial parallax photography
+
+Adapt the Kolibrie floating-photo concept to PLATINUM X campaign photography.
+
+Create a section where selected brand images move at slightly different speeds while scrolling.
+
+Use:
+
+- Fashion model photography.
+- Product close-ups.
+- Fox-emblem imagery.
+- Garment details.
+- Editorial campaign images.
+
+Keep a major editorial heading visually prominent.
+
+Images may pass near or partially overlap typography where the design allows it.
+
+Use restrained parallax distances.
+
+Avoid the playful stickers, colorful labels, and team-photo composition from Kolibrie.
+
+The effect should resemble a luxury fashion editorial rather than a creative agency portfolio.
+
+## 4.7 Black-to-ivory section transitions
+
+Implement smooth background changes as users scroll between major sections.
+
+Examples:
+
+- Ivory product sections.
+- Black statement sections.
+- Ivory editorial content.
+- Black campaign imagery.
+
+Use GSAP ScrollTrigger or CSS transitions.
+
+Suggested duration: approximately 0.6–0.8 seconds.
+
+Ensure text and buttons always retain sufficient contrast.
+
+## 4.8 Premium product interactions
+
+Product cards should have subtle interactive behavior.
+
+Examples:
+
+- Gentle image scaling on hover.
+- Smooth image swaps when alternate product images exist.
+- Understated text transitions.
+- Minimal animated underline effects.
+- Subtle button feedback.
+- Smooth gallery transitions.
+
+Avoid exaggerated bouncing, glowing buttons, or unnecessary effects.
+
+## 4.9 Product image gallery
+
+Build a functional gallery.
+
+Include:
+
+- Clickable thumbnails.
+- Main image switching.
+- Optional image zoom.
+- Keyboard navigation.
+- Touch-friendly mobile controls.
+- Loading placeholders.
+- Smooth image transitions.
+
+Use real product images.
+
+## 4.10 Page transitions
+
+Implement smooth transitions between routes without disrupting browser navigation.
+
+Use short fades or subtle editorial reveals.
+
+Preserve browser back/forward behavior.
+
+Do not delay navigation unnecessarily.
+
+Avoid replaying the full initial loading animation on each route.
+
+## 4.11 Cursor labels
+
+Use a minimal custom cursor label for selected editorial interactions.
+
+Examples:
+
+- VIEW PRODUCT
+- EXPLORE
+- DISCOVER
+
+Use monochrome styling.
+
+Do not replace the native cursor throughout the entire website.
+
+Custom cursor labels should appear only over designated interactive elements and should never interfere with clicking.
+
+## 4.12 Smooth scrolling
+
+Use Lenis with GSAP ScrollTrigger where appropriate.
+
+Reference configuration:
+
+- `lerp: 0.165`
+- `wheelMultiplier: 1.25`
+
+Synchronize Lenis updates with ScrollTrigger.
+
+Prevent duplicate animation loops.
+
+Disable smooth-scroll interception when reduced motion is requested.
+
+Preserve natural scrolling on mobile.
+
+---
+
+# 5. RESPONSIVE INTERACTION RULES
+
+Use three principal layout ranges:
+
+- Desktop: 992px and above.
+- Tablet: 601px–991px.
+- Mobile: 600px and below.
+
+Follow the actual Figma breakpoints when available.
+
+### Desktop
+
+Enable the full cinematic experience where appropriate:
+
+- Cursor-following imagery.
+- Pinned product showcase.
+- Scroll-triggered text reveals.
+- Gentle 3D interactions.
+- Editorial parallax.
+- Section theme transitions.
+
+### Tablet
+
+Reduce animation complexity.
+
+Avoid layouts requiring hover.
+
+Use touch-friendly navigation and controls.
+
+### Mobile
+
+Prioritize readability, speed, and shopping usability.
+
+- Disable cursor-following effects.
+- Replace complex pinned stacks with accessible product layouts.
+- Reduce parallax intensity.
+- Preserve the mobile Figma compositions.
+- Avoid horizontal overflow.
+- Keep buttons and product selectors touch-friendly.
+- Ensure cart and checkout work smoothly.
+
+### Accessibility
+
+Respect `prefers-reduced-motion`.
+
+Disable decorative motion when requested.
+
+Never hide essential content behind animations.
+
+Support keyboard navigation, visible focus indicators, accessible labels, and sufficient color contrast.
+
+---
+
+# 6. FUNCTIONAL E-COMMERCE SYSTEM
+
+This must be a real application, not a static demonstration.
+
+## Product catalog
+
+Implement a database-backed product catalog.
+
+Each product should support:
+
+- Unique product ID.
+- Name.
+- Slug.
+- Description.
+- Price.
+- Currency.
+- Images.
+- Available sizes.
+- Color variants.
+- Stock quantity.
+- Product status.
+- Collection or category.
+
+Do not invent real commercial data.
+
+Use clearly labeled development fixtures where necessary and keep them separate from production catalog data.
+
+## Shopping cart
+
+Implement:
+
+- Add to cart.
+- Remove from cart.
+- Update quantity.
+- Select product variants.
+- Calculate subtotal.
+- Persist the cart across page refreshes.
+- Prevent unavailable variants from being purchased.
+- Display clear validation and error messages.
+
+## Checkout
+
+Create a functional checkout flow with:
+
+- Customer information.
+- Delivery address.
+- Order summary.
+- Shipping selection when configured.
+- Payment integration.
+- Order confirmation.
+
+Do not invent payment credentials.
+
+Make the payment provider configurable.
+
+If a payment provider has not been selected, implement a clearly labeled development checkout flow without pretending that payments are being processed.
+
+For live payments, use the provider's secure hosted checkout or approved integration.
+
+Never store raw card details.
+
+## Orders
+
+Implement backend order management.
+
+Support:
+
+- Order creation.
+- Unique order reference.
+- Order status.
+- Purchased items.
+- Total amount.
+- Payment status.
+- Shipping information.
+- Order confirmation.
+
+Verify payment status server-side using the payment provider's documented webhook or verification process before marking an order paid.
+
+## Newsletter
+
+Implement newsletter signup with validation and persistent storage or a configured email marketing provider.
+
+Do not display a success message unless the subscription was actually accepted.
+
+## Contact
+
+Implement a functional contact form.
+
+Validate submissions and provide meaningful success or failure feedback.
+
+Use a configured email service or secure database storage.
+
+## Security
+
+Include:
+
+- Server-side input validation.
+- Secure environment variable handling.
+- Rate limiting for sensitive endpoints.
+- Appropriate HTTP security headers.
+- Secure session management if accounts are implemented.
+- Protection against common injection vulnerabilities.
+- Payment webhook signature verification.
+- Proper authorization for administrative operations.
+
+Do not expose administrative endpoints without authentication.
+
+---
+
+# 7. TECHNICAL ARCHITECTURE
+
+Use a production-friendly full-stack JavaScript architecture.
+
+### Frontend
+
+- React.
+- TypeScript.
+- Vite.
+- Tailwind CSS.
+- React Router.
+- GSAP.
+- ScrollTrigger.
+- Lenis.
+- Accessible UI components.
+
+Use the GSAP plugins needed for the requested effects.
+
+Where a plugin is unavailable or unsuitable, implement a supported equivalent.
+
+### Backend
+
+- Node.js.
+- Express.
+- TypeScript.
+- REST APIs.
+- Input validation.
+- Centralized error handling.
+
+### Database
+
+Use PostgreSQL when an externally accessible managed database is available.
+
+Alternatively, support SQLite for a suitable single-instance deployment with a persistent writable data directory.
+
+Choose the final database configuration based on the actual hosting environment.
+
+Do not require a separately managed database process inside the Pterodactyl container.
+
+### Project structure
+
+Use a clean structure similar to:
+
+```text
+platinum-x/
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── animations/
+│   │   ├── styles/
+│   │   └── services/
+│   └── index.html
+├── server/
+│   ├── src/
+│   │   ├── routes/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── middleware/
+│   │   └── database/
+├── shared/
+├── package.json
+├── package-lock.json
+├── .env.example
+├── .gitignore
+├── tsconfig.json
+└── README.md
+```
+
+Adjust the structure if necessary, but preserve a simple production deployment.
+
+---
+
+# 8. PTERODACTYL PANEL DEPLOYMENT
+
+**CRITICAL REQUIREMENT: The complete application must be deployable on a Pterodactyl Panel server using a compatible Node.js egg.**
+
+Do not design the application around Google Cloud Run, Vercel, Netlify, or Firebase Hosting.
+
+Those services must not be required to serve the application.
+
+## Single-process deployment
+
+The production application must run through one Node.js server process.
+
+The Express server must:
+
+1. Serve backend API routes.
+2. Serve the compiled React frontend.
+3. Support React Router history fallback.
+4. Listen on the configured port.
+5. Bind to `0.0.0.0`.
+6. Handle startup errors.
+7. Shut down gracefully.
+
+Use the environment variable:
+
+`PORT`
+
+Where supported, also accept:
+
+`SERVER_PORT`
+
+Provide a documented fallback for local development.
+
+Do not hardcode port 3000 as the only available port.
+
+## Required commands
+
+Ensure the following commands work from the project root:
+
+```bash
+npm install
+npm run build
+npm start
+```
+
+`npm run build` must compile the frontend and backend into their production outputs.
+
+`npm start` must run the compiled Express application without requiring a development server.
+
+Provide a working root `package.json` and all necessary scripts.
+
+## Pterodactyl startup
+
+Provide a startup command compatible with a standard Node.js egg.
+
+Preferred:
+
+```bash
+npm start
+```
+
+If the egg requires a direct JavaScript entry point, document the compiled server entry file.
+
+Do not require multiple independently started processes.
+
+## Environment variables
+
+Create a complete `.env.example` including relevant settings such as:
+
+```env
+NODE_ENV=production
+PORT=3000
+SERVER_PORT=
+DATABASE_URL=
+SQLITE_PATH=./data/platinum-x.db
+SESSION_SECRET=
+PUBLIC_SITE_URL=
+PAYMENT_PROVIDER=
+PAYMENT_SECRET_KEY=
+PAYMENT_WEBHOOK_SECRET=
+EMAIL_PROVIDER_API_KEY=
+```
+
+Include only the variables actually used by the implemented application.
+
+The port values shown are examples, not mandatory production values.
+
+Never include real credentials.
+
+## Persistent data
+
+If using SQLite:
+
+- Store the database in a persistent writable directory.
+- Create the directory when necessary.
+- Use safe database initialization and migrations.
+- Do not overwrite existing data on restart.
+- Document backup requirements.
+
+Do not assume all Pterodactyl containers provide persistent storage outside the server's assigned filesystem.
+
+## Networking
+
+Document:
+
+- Required port allocation.
+- Application startup configuration.
+- Domain connection.
+- HTTPS and reverse-proxy requirements.
+- Environment variable setup.
+- Database connectivity.
+- Static asset serving.
+- Production troubleshooting.
+
+The application should be compatible with a Pterodactyl installation that has a suitable Node.js runtime, port allocation, filesystem permissions, and external network access.
+
+Do not claim that Pterodactyl itself automatically provides a public domain, TLS certificate, or reverse proxy.
+
+## Deployment testing
+
+Verify:
+
+- Production build succeeds.
+- The compiled server starts.
+- The server listens on the assigned port.
+- The homepage loads.
+- Direct navigation to nested routes works.
+- Product images load.
+- Cart APIs work.
+- Database connections work.
+- Restarting the process does not erase persistent data.
+- API errors are handled correctly.
+
+If the actual Pterodactyl server is unavailable, provide reproducible local tests and clearly identify deployment steps that still require real-server verification.
+
+---
+
+# 9. PERFORMANCE OPTIMIZATION
+
+Cinematic interactions must not make the website slow.
+
+Implement:
+
+- Responsive image sizes.
+- WebP or AVIF where supported.
+- Lazy loading below-the-fold images.
+- Optimized fonts.
+- Code splitting.
+- Route-level lazy loading where useful.
+- Efficient GSAP timelines.
+- Proper ScrollTrigger cleanup.
+- Animation cleanup when React components unmount.
+- Avoid unnecessary React rerenders.
+- GPU-friendly transform animations.
+- Minimal layout thrashing.
+- Reduced-motion alternatives.
+- Reasonable loading and interaction performance.
+
+Use video only when necessary and when a suitable brand video asset is supplied.
+
+Do not invent or depend on an unrelated stock video.
+
+Do not use giant image files where optimized versions are available.
+
+---
+
+# 10. SEO AND ACCESSIBILITY
+
+Implement:
+
+- Semantic HTML.
+- Descriptive page titles.
+- Meta descriptions.
+- Open Graph metadata.
+- Product structured data where valid.
+- Canonical URLs when configured.
+- Image alt text.
+- Accessible forms.
+- Keyboard-friendly navigation.
+- Visible focus states.
+- Correct heading hierarchy.
+- Appropriate color contrast.
+- Accessible cart feedback.
+
+Ensure essential content is present even when decorative animations are disabled.
+
+---
+
+# 11. DEVELOPMENT WORKFLOW
+
+Do not attempt to generate a visually approximate website and declare it finished.
+
+Follow this process.
+
+## Phase 1 — Design analysis
+
+Analyze every attached Figma screenshot.
+
+Identify:
+
+- All pages.
+- Desktop layouts.
+- Mobile layouts.
+- Shared components.
+- Product imagery.
+- Fonts.
+- Colors.
+- Section spacing.
+- Navigation behavior.
+- Interactive elements.
+
+Create a page inventory and design implementation plan.
+
+Identify missing assets and unclear requirements.
+
+## Phase 2 — Foundation
+
+Create the React, TypeScript, Vite, Node.js, and Express project.
+
+Set up the design tokens, routing, reusable components, and production scripts.
+
+## Phase 3 — Visual implementation
+
+Build all Figma pages as accurately as possible.
+
+Prioritize visual fidelity before adding complex animations.
+
+## Phase 4 — Motion system
+
+Implement the cinematic interactions.
+
+Use the supplied Kolibrie specification for technical guidance.
+
+Adapt every effect to PLATINUM X.
+
+Do not copy Kolibrie's visual styling or content.
+
+## Phase 5 — E-commerce functionality
+
+Implement catalog data, cart, checkout integration, order processing, and necessary backend endpoints.
+
+Use real data where provided.
+
+Identify missing production configuration.
+
+## Phase 6 — Responsive refinement
+
+Compare the implementation with the desktop and mobile Figma references.
+
+Fix layout inconsistencies.
+
+Ensure touch interactions work.
+
+## Phase 7 — Testing
+
+Test all major user journeys.
+
+Check:
+
+- Navigation.
+- Product browsing.
+- Variant selection.
+- Cart updates.
+- Checkout.
+- Forms.
+- Database persistence.
+- Mobile responsiveness.
+- Animations.
+- Reduced-motion behavior.
+- Error handling.
+
+## Phase 8 — Production deployment
+
+Create production builds.
+
+Prepare the Pterodactyl-compatible startup configuration.
+
+Provide complete deployment documentation.
+
+---
+
+# 12. FINAL ACCEPTANCE CRITERIA
+
+The project is not complete until the following requirements are satisfied.
+
+### Visual fidelity
+
+- All supplied Figma pages are represented.
+- Layouts closely match the source designs.
+- Brand assets are used correctly.
+- Typography and spacing are consistent.
+- Mobile layouts match the supplied references.
+
+### Cinematic experience
+
+- The fox-emblem intro works.
+- Major headings reveal smoothly.
+- The hero interaction works on compatible desktop devices.
+- The featured product stack responds to scrolling.
+- Editorial imagery uses restrained parallax.
+- Background transitions are smooth.
+- Reduced-motion alternatives work.
+- Animations do not obstruct shopping.
+
+### E-commerce
+
+- Products load from the configured catalog.
+- Variants and stock are handled.
+- Cart changes persist.
+- Orders are recorded.
+- Checkout behaves correctly for the configured payment mode.
+- Production payment status is verified securely.
+- Forms submit real data.
+
+### Pterodactyl compatibility
+
+- `npm install` succeeds.
+- `npm run build` succeeds.
+- `npm start` starts the production server.
+- The frontend and API work through the same server port.
+- Direct route refreshes work.
+- Persistent data survives application restarts.
+- Deployment documentation is complete.
+
+Do not report a feature as tested if it has not actually been tested.
+
+---
+
+# 13. IMPORTANT RESTRICTIONS
+
+DO NOT:
+
+- Redesign the original Figma layouts.
+- Replace the PLATINUM X identity.
+- Introduce colorful Kolibrie styling.
+- Use unrelated fashion photographs when supplied assets exist.
+- Invent product prices or availability.
+- Implement fake checkout functionality.
+- Use nonfunctional buttons.
+- Require Google Cloud hosting.
+- Depend on Vite's development server in production.
+- Hardcode sensitive credentials.
+- Make the mobile website dependent on hover interactions.
+- Hide content permanently if animation initialization fails.
+- Sacrifice shopping usability for visual effects.
+
+DO:
+
+- Preserve the luxury aesthetic.
+- Use real PLATINUM X imagery.
+- Implement genuine functionality.
+- Keep animations smooth and restrained.
+- Make the website responsive.
+- Ensure production deployment compatibility.
+- Ask for missing critical information.
+- Verify the finished build.
+
+---
+
+# 14. FINAL OBJECTIVE
+
+Create a premium digital flagship store for **PLATINUM X**.
+
+It should combine:
+
+**The visual precision of my Figma designs.**
+
+**The cinematic interaction techniques of my supplied reference.**
+
+**The restraint and sophistication of a luxury fashion brand.**
+
+**The functionality of a modern e-commerce platform.**
+
+**The deployment simplicity of a single-process Node.js application hosted through Pterodactyl Panel.**
+
+The final website should feel confident, elegant, memorable, and technically polished.
+
+**PLATINUM X — LESS NOISE. MORE PRESENCE.**
+
+Begin by analyzing the attached design files and identifying the complete page structure, available assets, missing information, and implementation phases. Then proceed with the build, testing each phase before moving to the next.

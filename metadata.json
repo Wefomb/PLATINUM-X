@@ -1,0 +1,6 @@
+{
+  "name": "PLATINUM X",
+  "description": "Minimalist luxury streetwear digital flagship — Less noise. More presence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
